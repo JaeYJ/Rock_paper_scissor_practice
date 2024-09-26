@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { useGameContext } from './GameContext';
 import './App.css';
 
 function Player2Page() {
     const [choose, setChoose] = useState("");
     const [result, setResult] = useState(null);
+    // const { player2Choose, setPlayer2Choose } = useGameContext();
 
     return(
         <div classNmae="container">

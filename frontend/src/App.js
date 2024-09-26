@@ -25,6 +25,7 @@ function App() {
           <Route path="/player_2" element={<Player2Page />} />
         </Routes>
       </div>
+      <h1>Result</h1>
     </Router>
   );
 }
